@@ -1,0 +1,11 @@
+<view class="data-list">
+  <slot></slot>
+  <view class="list-footer">
+    <van-loading wx:if="{{loading}}" class="footer-text" size="30rpx" text-size="30rpx">拼命加载中...</van-loading>
+    <text wx:elif="{{error}}" class="footer-text" bindtap="restore">{{errorText}}</text>
+    <view wx:elif="{{empty}}">
+      <custom-empty />
+    </view>
+    <text wx:elif="{{finished}}" class="footer-text">{{finishedText}}</text>
+  </view>
+</view>

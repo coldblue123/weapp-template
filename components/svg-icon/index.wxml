@@ -1,0 +1,1 @@
+<text class="iconfont {{icon}} svg-box" wx:if="{{icon}}" style="{{color?'color:'+color:''}};{{size?'font-size:'+size:''}}"></text>

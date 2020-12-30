@@ -1,0 +1,18 @@
+{
+    "files.autoSave": "off",
+    "less.compile": {
+      "outExt": ".wxss"
+    },
+    "eslint.validate": [
+      "javascript",
+      {
+        "language": "javascript",
+        "autoFix": true
+      }
+    ],
+    "eslint.run": "onSave",
+    "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+}

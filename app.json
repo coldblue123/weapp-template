@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/main/index/index",
+    "pages/main/me/index"
+  ],
+  "window":{
+    "navigationStyle":"custom",
+    "navigationBarTextStyle":"black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/main/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath":  "pages/main/me/index",
+        "text": "我的"
+      }
+    ]
+  },
+
+  "subpackages": [
+    {
+      "root": "pages/activity",
+      "pages": [
+        "index/index"
+      ],
+      "independent": true
+    }
+  ],
+  "usingComponents": {
+    "van-field": "@vant/weapp/field/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-nav-bar": "@vant/weapp/nav-bar/index",
+    "time": "/components/time/index",
+    "van-image": "@vant/weapp/image/index"
+  }
+}

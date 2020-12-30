@@ -1,0 +1,4 @@
+<!--pages/me/index.wxml-->
+<view class="me-box">
+    我的
+</view>

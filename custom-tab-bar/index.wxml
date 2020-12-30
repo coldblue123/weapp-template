@@ -1,0 +1,18 @@
+<!--miniprogram/custom-tab-bar/index.wxml-->
+<van-tabbar active="{{ active }}"  bind:change="switchTab">
+  <van-tabbar-item wx:for="{{list}}" wx:key="index">
+    <image
+      slot="icon"
+      src="{{ item.iconPath }}"
+      mode="aspectFit"
+      class="log-style"
+    />
+    <image
+      slot="icon-active"
+      src="{{ item.selectedIconPath }}"
+      mode="aspectFit"
+      class="log-style"
+    />
+    {{item.text}}
+  </van-tabbar-item>
+</van-tabbar>

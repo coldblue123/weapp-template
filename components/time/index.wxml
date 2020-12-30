@@ -1,0 +1,1 @@
+<text class="time-box">{{formatTime}}</text>

@@ -1,0 +1,23 @@
+{
+  "name": "ts-we-modules",
+  "version": "1.0.0",
+  "description": "'tuishan applets depend on packages'",
+  "main": "app.js",
+  "scripts": {
+    "url:stage": "node create-env.js",
+    "url:prod": "node create-env.js"
+  },
+  "keywords": [
+    "ts",
+    "nodules"
+  ],
+  "author": "秦明",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.6.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "^7.15.0"
+  }
+}

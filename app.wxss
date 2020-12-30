@@ -1,0 +1,7 @@
+/* vant-ui样式重置 */
+.van-field__label{
+    font-size: 28rpx;
+}
+.van-field__input{
+    font-size: 28rpx;
+}

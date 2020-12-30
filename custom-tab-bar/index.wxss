@@ -1,0 +1,5 @@
+.log-style{
+    width: 30px; 
+    height: 18px;
+    transition: .3s;
+}

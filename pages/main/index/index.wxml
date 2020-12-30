@@ -1,0 +1,9 @@
+<view class="main-box">
+
+  <van-nav-bar border="{{false}}" fixed placeholder="{{true}}" custom-style="background: #ffffff;">
+    <view slot="title" class="nav-title">weapp-template</view>
+  </van-nav-bar>
+
+  <view>实用的原生小程序模板</view>
+
+</view>
