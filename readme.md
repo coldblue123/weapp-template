@@ -1,5 +1,5 @@
 ## weapp-template
-基于 原生小程序 + axios(基于原生wx.request封装) + vant ui + less + iconfont + eslint 构建的及其简单实用的小程序模板
+动动你可爱的小手手点亮一颗star, 模板基于原生小程序 + axios(原生wx.request封装) + vant ui + less + iconfont + eslint 搭建, 存粹干净, 希望能帮你少踩一些坑
 
 ## 启动项目
 ```bash
