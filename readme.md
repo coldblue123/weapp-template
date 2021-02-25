@@ -144,7 +144,7 @@ vscode编写scss保存会自动编译生成wxss<br>
   }
 ```
 
-### <span>✅eslit</span>
+### <span>✅eslint</span>
 更改`.eslint.js`配置属于自己的规范, 小程序因为不支持`browser`显示, 所以仅在vscode中会出现错误提示, 并且在vscode中保存会自动格式化代码<br>
 - 注意小程序全局变量会出现eslint错误, 因此需要手动添加全局变量<br>
 <img src="https://note.youdao.com/yws/public/resource/6d39c8c0854ee74a82d677c892787543/xmlnote/E25860519A97403DA4183298CFFDB073/4639">
