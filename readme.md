@@ -3,14 +3,19 @@
 
 ## 启动项目
 ```bash
+# 克隆项目
 git clone https://github.com/coldblue123/weapp-template.git
 
+# 进入项目目录
 cd weapp-template
 
+# 安装依赖
 npm install
 
+# 写入appid至项目
 npm run dev 您的小程序appid
 
+# 构建npm
 微信开发者工具 工具 => 构建npm => 重新编译
 ```
 
