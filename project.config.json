@@ -18,7 +18,7 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
+    "useMultiFrameRuntime": true,
     "useApiHook": true,
     "babelSetting": {
       "ignore": [],
@@ -32,7 +32,8 @@
     "userConfirmedUseCompilerModuleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "useApiHostProcess": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.3",
@@ -52,6 +53,10 @@
   "packOptions": {
     "ignore": [
       {
+        "type": "folder",
+        "value": ".vscode"
+      },
+      {
         "type": "file",
         "value": ".gitignore"
       },
@@ -61,15 +66,23 @@
       },
       {
         "type": "file",
-        "value": "package-lock.json"
-      },
-      {
-        "type": "file",
         "value": "package.json"
       },
       {
         "type": "file",
-        "value": "readme.md"
+        "value": "package-lock.json"
+      },
+      {
+        "type": "regexp",
+        "value": "\\.md$"
+      },
+      {
+        "type": "regexp",
+        "value": "\\.less$"
+      },
+      {
+        "type": "regexp",
+        "value": "\\.scss$"
       }
     ]
   },

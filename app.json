@@ -33,6 +33,8 @@
     }
   ],
   "usingComponents": {
+    "time": "/components/time/index",
+    "svg-icon": "/components/svg-icon/index",
     "van-field": "@vant/weapp/field/index",
     "van-dialog": "@vant/weapp/dialog/index",
     "van-popup": "@vant/weapp/popup/index",
@@ -43,7 +45,6 @@
     "van-picker": "@vant/weapp/picker/index",
     "van-toast": "@vant/weapp/toast/index",
     "van-nav-bar": "@vant/weapp/nav-bar/index",
-    "time": "/components/time/index",
     "van-image": "@vant/weapp/image/index"
   }
 }

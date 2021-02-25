@@ -1,7 +1,26 @@
-/* vant-ui样式重置 */
-.van-field__label{
-    font-size: 28rpx;
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2269186_xq9ttr8cew.eot?t=1614240425822'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2269186_xq9ttr8cew.eot?t=1614240425822#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQ4AAsAAAAACHgAAAPrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEXIN5ATYCJAMMCwgABCAFhG0HOxtEBxFVnKHIfhzYMeQ3vOUncakUMSy4szMIN73PB6mYyzbo1CgTE0kDBBCcvf/NuUYpFwoz8jp0V2PqfdjHOw5ntgWTKRmihubBMeNF2sDygOaSkRwJOMEBdXuk8AYyUHz1H8YuaInHgQCQhSHsQcIj49MhBAtzHAFA6muqSiDMaMA2kAiEcn7FUhZkCngQMmOZswAmB98nb+BKhAADHoU5NbkyohzBz/H8JxVxIuR7OoinMwFgqwAKwB4AC5DCSks2aBSxB4WsKmGb0/lgQcBM5ec4Ao4m4lv/8AAGBCB8mBJ5hLGOMsBzOJxE+hPyrpr7cDJ+FDsN4L2hUB96JqIc29ynsm2fAX/uXnfl7fsNBQsOFMzYFjC4SmPVCa0FduMspcs1l7vvW79+MRGHSRe7rTjlsyPqWMSMG3LzrqrvA0QLtWeqSyTqS7eau68CjsrKjoskkuuB0s22Emmf6KqZnC7RlBIyJ9ttx40LdmuMlpguuG5rdzdcbr7U2vz0uGip5XLLxDnzqsFK2GOhyTybVeeueazUH61Ydpzlct3ZllLLcHt1yeCghsayVToas3ZtkxtvpQWRukTz+vVMZM4S3zCJ46+N4qWJMp05mkk55+DvsazcfLGniaDq+dsK10pNjanuwy3kf372OmUWdshtAlm0XP3P5iTvRIiJ5R9BsMWZCCXdrdunc1VvJToJZiNvenbbuQnc7OKu5rHywwYvZm9H0CNRivPMooFhBXHaV3Z2yU/QUTY1DVHeXDtp2UPK041Yc5CJeLhl/O9Dkx8NXFohc+D0uqsfmMiDc3QjeczFbZNzD4WomN6xev5YVU0nsenm1oDX6gqyA6E+XWGu2sNaGrsnvdRSVf1UJD96x+M4naEFDsHOwS4zkRxmKg5tKyxsCxWbjkJMnxkz07NMxSgGAHDDWFBREJtJOTrsr/8Gj4fdcypS8v8mXKxZAMBd//GC/O5ZEGKAcf8xt2MDq/FNLZ3CcTiGjWoeaGIAsrgdHNOh6jfcpmGQmAgh50JgCBgAJWSOYDH2wCPHHfiEgkCWHW+1HDVsjEwGgK0nAELZGxiKDgCl7INgMV/g0fQHPuXGICsztS3lWJavwhhjwRMkN8iP1ChbL6swf4NpX8Wc5gfkA3KX+8HSzXzcwwZ5ihndObVFFCimGlxwGlYVQctU4FH0TKR1DENV3Ug/Uj1YCcNQTKATkLgBuSPSUF57sSp8fgOlepUYN5RUGQ8Q6+SdA4vO7IDwJE2nklvp3TlL2YRQeJTCSA240IQqK0JAWz2ogI6ELhsQajkM1Ep1lejLy+oXyGYVmEtpDKGEBf+5ZH2y8N0aDQYA') format('woff2'),
+  url('//at.alicdn.com/t/font_2269186_xq9ttr8cew.woff?t=1614240425822') format('woff'),
+  url('//at.alicdn.com/t/font_2269186_xq9ttr8cew.ttf?t=1614240425822') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2269186_xq9ttr8cew.svg?t=1614240425822#iconfont') format('svg'); /* iOS 4.1- */
 }
-.van-field__input{
-    font-size: 28rpx;
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+.iconfont-github:before {
+  content: "\e6f8";
+}
+
+.iconfont-github-o:before {
+  content: "\e600";
+}
+
+
