@@ -2,6 +2,7 @@ page {
   background: #F7F8FA;
 }
 page .title {
+  margin-top: 20rpx;
   font-size: 36rpx;
   font-weight: bold;
 }

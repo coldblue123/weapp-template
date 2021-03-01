@@ -4,6 +4,7 @@ import { createStoreBindings } from 'mobx-miniprogram-bindings'
 import { store } from '../../../store/test'
 Page({
   data: {
+    time: +new Date()
   },
   onLoad() {
     this.storeBindings = createStoreBindings(this, {
