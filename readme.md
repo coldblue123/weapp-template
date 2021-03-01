@@ -24,8 +24,8 @@ npm run dev 您的小程序appid
 - [√ 自定义预处理命令配置](#create-env)
 - [√ axios基于原生wx.request的封装](#axios)
 - [√ vantUi](#vant)
-- [× 全局状态管理](#mox)
-- [× 计算属性](#compute)
+- [√ 全局状态管理](#mox)
+- [√ 计算属性](#computed)
 - [√ less转wxss](#less)
 - [√ sass转wxss](#sass)
 - [√ iconfont组件](#iconfont)
@@ -66,12 +66,12 @@ App({
 
 项目默认引入[vantUi](https://vant-contrib.gitee.io/vant-weapp/#/intro), 构建npm文件后生成 `miniprogram_npm/@vant/weapp` vantUi组件目录
 
-### <span id="mox">全局状态管理</span>
-暂未引入<br>
+### <span id="mox">✅全局状态管理</span>
+`/components/mobx-example/index`为全局状态管理[mobx](https://developers.weixin.qq.com/miniprogram/dev/extended/utils/mobx.html)示例<br>
 全局状态管理, 不要为了用而用, 看自己的项目是否有确切的需求, 花俏的堆砌反而会造成项目拥挤
 
-### <span id="computed">计算属性</span>
-`components/computed-example/index.js`为computed和watch示例<br>
+### <span id="computed">✅计算属性</span>
+`components/computed-example/index.js`为[computed](https://developers.weixin.qq.com/miniprogram/dev/extended/utils/computed.html)和[watch](https://developers.weixin.qq.com/miniprogram/dev/extended/utils/computed.html)示例<br>
 wxs已经可以满足常规开发计算需要, 如果你的项目不严格要求组件化, 可以考虑不使用计算属性
 
 ### <span id="less">✅less转wxss</span>
