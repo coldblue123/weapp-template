@@ -4,8 +4,8 @@
   "description": "'tuishan applets depend on packages'",
   "main": "app.js",
   "scripts": {
-    "url:stage": "node create-env.js",
-    "url:prod": "node create-env.js"
+    "dev": "node create-env.js",
+    "build": "node create-env.js"
   },
   "keywords": [
     "ts",
@@ -15,7 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "@vant/weapp": "^1.6.2",
-    "miniprogram-computed": "^4.0.1"
+    "miniprogram-computed": "^4.0.1",
+    "mobx-miniprogram": "^4.13.2",
+    "mobx-miniprogram-bindings": "^2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",

@@ -19,8 +19,8 @@ export const WE_APP_BASE_API = "${devUrl}"
 `
 
 const BASE_URL = {
-  'url:stage': development,
-  'url:prod': production
+  'dev': development,
+  'build': production
 }
 
 // 在根目录中生成env.js文件(也就是主包内)

@@ -43,9 +43,9 @@
     "hidedInDevtools": []
   },
   "scripts": {
-    "beforeCompile": "npm run url:stage test001",
+    "beforeCompile": "npm run dev test001",
     "beforePreview": "",
-    "beforeUpload": "npm run url:prod"
+    "beforeUpload": "npm run build"
   },
   "isGameTourist": false,
   "simulatorType": "wechat",
