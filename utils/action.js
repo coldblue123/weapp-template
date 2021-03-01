@@ -2,25 +2,6 @@
 import { login, userInfo } from '../api/login'
 import initAxios from '../request/create'
 
-// 通过手机密码,验证码登录
-export function phoneLogin(data) {
-//   const app = getApp()
-  return new Promise((resolve, reject) => {
-    login(data).then((res) => {
-      console.log(res)
-      // 存入全局与缓存(按需储存)
-      //   app.globalData.token = res.access_token
-      wx.setStorageSync('token', res.access_token)
-      // 重新初始化axios
-      initAxios()
-      resolve(res)
-    }).catch((err) => {
-      console.log(err)
-      reject(err)
-    })
-  })
-}
-
 // 微信登录
 export function weLogin() {
   return new Promise((resolve, reject) => {

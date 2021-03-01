@@ -44,7 +44,7 @@ export function parseTime(time, cFormat) {
 
 /**
  * 对象深度克隆
- * @param {Object} target
+ * @param {Object|Array} target
  */
 export function deepClone(obj) {
   var newObj = obj instanceof Array ? [] : {}
@@ -53,22 +53,6 @@ export function deepClone(obj) {
     newObj[item] = temple
   }
   return newObj
-}
-
-/**
- * 电话正则
- * @param {*} phone
- */
-export function isPhone(phone) {
-  return /^1[3-9]\d{9}$/.test(phone)
-}
-
-/**
- * 密码正则, 密码必须包含字母和数字，长度在8-16之间
- * @param {*} pwd
- */
-export function isPawssord(pwd) {
-  return /(?=.*[a-zA-Z])(?=.*\d)^.{8,16}$/.test(pwd)
 }
 
 /**
@@ -83,7 +67,9 @@ export function initTabActive(index) {
   }
 }
 
-// base64转本地图片
+/** base64转本地图片
+ * @param {string} base64
+ */
 export function base64toSrc(base64) {
   return new Promise((resolve, reject) => {
     const fs = wx.getFileSystemManager()
