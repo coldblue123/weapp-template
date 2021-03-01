@@ -1,0 +1,10 @@
+<view class="test-box">
+  <view class="title">computed</view>
+  <view>a:{{a}}  b:{{b}}</view>
+  a+b = {{sum}}
+  <van-button size="small" bindtap = "handleUpdataSum">updata</van-button>
+  <view class="title">watch</view>
+  <view>c:{{c}}  d:{{d}}</view>
+  c+d = {{result}}
+  <van-button size="small" bindtap = "handleUpdataResult">updata</van-button>
+</view>

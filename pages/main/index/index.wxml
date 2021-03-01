@@ -4,7 +4,7 @@
     <view slot="title" class="nav-title">weapp-template</view>
   </van-nav-bar>
 
-  <view>实用的原生小程序模板</view>
+  <view class="title">iconfont</view>
   <svg-icon icon="iconfont-github-o" size="24rpx" color="#e6e6e6"></svg-icon>
   <svg-icon icon="iconfont-github-o" size="36rpx" color="#dbdbdb"></svg-icon>
   <svg-icon icon="iconfont-github-o" size="48rpx" color="#cdcdcd"></svg-icon>
@@ -14,4 +14,5 @@
   <svg-icon icon="iconfont-github-o" size="96rpx" color="#515151"></svg-icon>
   <svg-icon icon="iconfont-github-o" size="108rpx" color="#333333"></svg-icon>
 
+  <computed-example></computed-example>
 </view>

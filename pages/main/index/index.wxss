@@ -1,3 +1,7 @@
 page {
   background: #F7F8FA;
 }
+page .title {
+  font-size: 36rpx;
+  font-weight: bold;
+}

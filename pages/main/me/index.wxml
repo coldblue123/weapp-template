@@ -1,4 +1,7 @@
 <!--pages/me/index.wxml-->
 <view class="me-box">
+    <van-nav-bar border="{{false}}" fixed placeholder="{{true}}" custom-style="background: #ffffff;">
+        <view slot="title" class="nav-title">me</view>
+    </van-nav-bar>
     我的
 </view>
