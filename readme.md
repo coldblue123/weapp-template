@@ -41,8 +41,9 @@ export const WE_APP_BASE_API = 'http://test001-api.xxx/v1'
 
 ### <span id='create-env'>✅自定义预处理命令配置</span>
 `package.json` 里的 `scripts` 配置 `dev` `build`<br>
-- 通过 `npm run dev ${1} ${2}` 启用开发环境 `${1}`appid必传  `${2}`BASE_API默认正式服,非必传<br>
-- 通过 `npm run build ${1} ${2}` 打包上传环境 `${1}`appid必传  `${2}`BASE_API默认正式服,非必传<br>
+- 通过 `npm run dev ${1} ${2}` 启用开发环境<br>
+- 通过 `npm run build ${1} ${2}` 打包上传环境<br>
+`${1}`appid必传  `${2}`BASE_API默认正式服,非必传
 #### 此功能为解决以下问题, 其作用类似于多环境变量<br>
 1.便于多个小程序`appid`切换<br>
 2.便于多个服务器`BASE_API`切换<br>
@@ -70,7 +71,7 @@ App({
 全局状态管理, 不要为了用而用, 看自己的项目是否有确切的需求, 花俏的堆砌反而会造成项目拥挤
 
 ### <span id="computed">计算属性</span>
-暂未引入<br>
+`components/computed-example/index.js`为computed和watch示例<br>
 wxs已经可以满足常规开发计算需要, 如果你的项目不严格要求组件化, 可以考虑不使用计算属性
 
 ### <span id="less">✅less转wxss</span>
