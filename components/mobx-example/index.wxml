@@ -1,0 +1,6 @@
+<view class="test-box">
+  <view class="title">mobx</view>
+  <view>numA:{{numA}}  numB:{{numB}}</view>
+  numA + numB = {{sum}}
+  <van-button size="small" bindtap = "handleUpdate">updata</van-button>
+</view>

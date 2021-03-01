@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "van-button": "@vant/weapp/button/index",
-    "computed-example": "/components/computed-example/index"
+    "computed-example": "/components/computed-example/index",
+    "mobx-example": "/components/mobx-example/index"
   }
 }

@@ -15,4 +15,10 @@
   <svg-icon icon="iconfont-github-o" size="108rpx" color="#333333"></svg-icon>
 
   <computed-example></computed-example>
+  <mobx-example></mobx-example>
+
+  <view class="title">page mobx</view>
+  <view>numA:{{numA}}  numB:{{numB}}</view>
+  numA + numB = {{sum}}
+  <van-button size="small" bindtap = "handleUpdate">updata</van-button>
 </view>
