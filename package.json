@@ -11,10 +11,11 @@
     "ts",
     "nodules"
   ],
-  "author": "秦明",
+  "author": "coldblue",
   "license": "ISC",
   "dependencies": {
-    "@vant/weapp": "^1.6.2"
+    "@vant/weapp": "^1.6.2",
+    "miniprogram-computed": "^4.0.1"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",
