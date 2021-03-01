@@ -35,6 +35,7 @@
   "usingComponents": {
     "time": "/components/time/index",
     "svg-icon": "/components/svg-icon/index",
+    "unit": "/components/unit/index",
     "van-field": "@vant/weapp/field/index",
     "van-dialog": "@vant/weapp/dialog/index",
     "van-popup": "@vant/weapp/popup/index",
