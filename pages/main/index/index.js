@@ -9,7 +9,7 @@ Page({
     this.storeBindings = createStoreBindings(this, {
       store,
       fields: ['numA', 'numB', 'sum'],
-      actions: ['update']
+      actions: ['handleUpdate']
     })
   },
   onUnload() {
