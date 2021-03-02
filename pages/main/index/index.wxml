@@ -27,4 +27,8 @@
   <view class="title">时间组件</view>
   <time time="{{time}}" format="{y}-{m}-{d} {h}:{i}:{s}"></time>
 
+  <view class="title">单位组件</view>
+  <view><unit num="112312" ></unit></view>
+  <view><unit num="112312" more></unit></view>
+
 </view>
