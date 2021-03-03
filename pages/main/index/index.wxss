@@ -1,5 +1,6 @@
 page {
   background: #F7F8FA;
+  padding-bottom: 120rpx;
 }
 page .title {
   margin-top: 20rpx;
