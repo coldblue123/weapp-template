@@ -10,8 +10,11 @@ module.exports = {
     node: true,
     es6: true
   },
+  plugins: [
+    'html'
+  ],
 
-  'extends': 'eslint:recommended',
+  extends: 'eslint:recommended',
 
   // add your custom rules here
   rules: {
