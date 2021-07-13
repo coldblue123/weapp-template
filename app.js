@@ -23,7 +23,7 @@ function _initShare() {
         return {
           title: 'weapp-template-默认分享文案',
           path: '/pages/main/index/index',
-          imageUrl: 'https://img0.tuishan.com/sketch-map/platform.png'
+          imageUrl: 'https://img01.yzcdn.cn/vant/cat.jpeg'
         }
       }
     }, pageConfig)
