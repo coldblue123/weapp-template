@@ -1,7 +1,7 @@
 {
   "name": "ts-we-modules",
   "version": "1.0.0",
-  "description": "'tuishan applets depend on packages'",
+  "description": "'weapp-template'",
   "main": "app.js",
   "scripts": {
     "dev": "node create-env.js",
